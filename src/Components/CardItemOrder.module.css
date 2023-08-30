@@ -1,0 +1,124 @@
+.orderContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .hidden {
+  animation: shrinkAndHide 0.5s ease-in-out forwards;
+}
+.roundedImg {
+    display: inline-block;
+    width: 70px;
+    height: 65px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeIn 0.3s ease-in-out forwards, grow 0.3s ease-in-out forwards;
+  }
+  @keyframes shrinkAndHide {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8);
+      display: none;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes grow {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+.roundedImg img {
+    transform: rotate(-20deg);
+    transform-origin: center center;
+    display: block;
+    max-width: 150%;
+    max-height: 140%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+  
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contents.appear {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+.contents .name {
+    font-size: 9px;
+    font-weight: 600;
+}
+.contents .price {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.action {
+    margin-top: 4px;
+    padding-left: 4px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.action .plus {
+    background: rgba(#303841, .2);
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.action .trash {
+    background: #F6C90E;
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.plus img {
+    padding-bottom: 2px;
+    width: 6px;
+    aspect-ratio: 1/1;
+}
+.trash {
+    margin-left: 12px;
+}
+.trash img {
+    
+    width: 10px;
+    aspect-ratio: 1/1;
+}
+.action p {
+    font-size: 10px;
+}

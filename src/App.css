@@ -1,0 +1,56 @@
+:root {
+  --color--White: #FFFFFF;
+  --color--Black: #303841;
+  --color--Gray: #777777;
+  --color--Yellow: #F6C90E;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color--White);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.custom-shape-divider-bottom-1693323328 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  animation: raiseAnimation 3s ease-in-out infinite alternate;
+}
+
+@keyframes raiseAnimation {
+  0% {
+    transform: rotate(180deg) translateY(0);
+  }
+  100% {
+    transform: rotate(180deg) translateY(-30px);
+  }
+}
+
+
+.custom-shape-divider-bottom-1693323328 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 2.3px);
+  height: 450px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1693323328 .shape-fill {
+  fill: var(--color--Yellow);
+}
+
+@media (max-width: 667px) {
+ .container {
+  flex-direction: column;
+  height: fit-content;
+ }
+}
