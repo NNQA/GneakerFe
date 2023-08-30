@@ -1,27 +1,46 @@
-# React + TypeScript + Vite
+Sneaker Shop Web App
+Welcome to the Sneaker Shop web app! This app allows you to browse through a collection of sneakers, add them to your cart, adjust quantities, and remove items from your cart. The app is built using React and communicates with a backend API to retrieve product information and manage the shopping cart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Table of Contents
+Demo
+Features
+Installation
+Usage
+Contributing
+Demo
+Check out the live demo of the Sneaker Shop app: Sneaker Shop Demo
 
-Currently, two official plugins are available:
+Features
+View a list of available sneakers.
+Add sneakers to your shopping cart.
+Adjust the quantity of items in your cart.
+Remove items from your cart.
+Installation
+Clone this repository to your local machine:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+git clone https://github.com/NNQA/sneaker-shop.git
+Navigate to the project directory:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+cd sneaker-shop
+Install the dependencies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+npm install
+Usage
+Start the development server:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm start
+Open your browser and go to https://strong-starlight-e633d6.netlify.app/ to access the app.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Browse through the available sneakers, and use the "Add to Cart" button to add items to your cart.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+In the cart, you can adjust the quantity of items using the "+" and "-" buttons, and you can also remove items from the cart.
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
