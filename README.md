@@ -5,21 +5,20 @@ Table of Contents
 Demo
 Features
 Installation
-Usage
-Contributing
 Demo
 Check out the live demo of the Sneaker Shop app: Sneaker Shop Demo
 
-Features:
+~Features:
  - View a list of available sneakers.
  - Add sneakers to your shopping cart.
  - Adjust the quantity of items in your cart.
  - Remove items from your cart.
-Installation: 
+
+
+~Installation: 
  - Clone this repository to your local machine: git clone https://github.com/NNQA/GneakerFe
-Install the dependencies:
+~Install the dependencies:
  - npm install
-Usage
 Start the development server:
  - Open your browser and go to https://strong-starlight-e633d6.netlify.app/ to access the app.
 
