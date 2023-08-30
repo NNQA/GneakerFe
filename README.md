@@ -3,6 +3,7 @@ Welcome to the Sneaker Shop web app! This app allows you to browse through a col
 
 !Features:
  - View a list of available sneakers.
+ - Add Item to card.
  - Adjust the quantity of items in your cart.
  - Remove items from your cart.
 
@@ -19,3 +20,5 @@ Browse through the available sneakers, and use the "Add to Cart" button to add i
 In the cart, you can adjust the quantity of items using the "+" and "-" buttons, and you can also remove items from the cart.
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
+# Responsive design 
+![image](https://github.com/NNQA/GneakerFe/assets/81368386/34569e22-6425-4200-a064-04f3ee7843ea)
