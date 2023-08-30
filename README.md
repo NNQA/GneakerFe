@@ -3,7 +3,6 @@ Welcome to the Sneaker Shop web app! This app allows you to browse through a col
 
 !Features:
  - View a list of available sneakers.
- - Add sneakers to your shopping cart.
  - Adjust the quantity of items in your cart.
  - Remove items from your cart.
 
