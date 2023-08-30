@@ -1,5 +1,6 @@
 Sneaker Shop Web App
 Welcome to the Sneaker Shop web app! This app allows you to browse through a collection of sneakers, add them to your cart, adjust quantities, and remove items from your cart. The app is built using React and communicates with a backend API to retrieve product information and manage the shopping cart.
+
 !Features:
  - View a list of available sneakers.
  - Add sneakers to your shopping cart.
