@@ -1,4 +1,4 @@
-Sneaker Shop Web App
+#Sneaker Shop Web App
 Welcome to the Sneaker Shop web app! This app allows you to browse through a collection of sneakers, add them to your cart, adjust quantities, and remove items from your cart. The app is built using React and communicates with a backend API to retrieve product information and manage the shopping cart.
 
 Table of Contents
@@ -20,7 +20,7 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/NNQA/sneaker-shop.git
+git clone https://github.com/NNQA/GneakerFe
 Navigate to the project directory:
 
 bash
