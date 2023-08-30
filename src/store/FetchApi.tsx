@@ -2,6 +2,7 @@ import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 export const getAllProduct = createAsyncThunk(
   "product/getAll",
+  /* @ts-ignore */
   async (values: any, thunkApi) => {
     try {
       axios.defaults.withCredentials = true;

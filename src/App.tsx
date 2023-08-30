@@ -32,7 +32,7 @@ function App() {
       prevProducts.filter((item) => item !== a)
     );
     if (disabledProducts.length === 1) {
-      setTotal((pre) => (pre = 0));
+      setTotal((pre: any) => (pre -= pre));
     } else {
       setTotal((pre: any) => pre - count * parseFloat(a.price));
     }

@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import classes from "./CardItemOrder.module.css";
 import plus from "../assets/plus.png";
 import minus from "../assets/minus.png";
 import trash from "../assets/trash.png";
 const CardItemOrder = (props: any) => {
   const [showImage, setShowImage] = useState(false);
+  /* @ts-ignore */
   const [showContent, setShowContent] = useState(false);
-  const [hidden, setHidden] = useState(false);
   const [amount, setAmount] = useState(0);
 
   useEffect(() => {
